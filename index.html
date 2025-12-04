@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Ariel Vargas | Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button id="languageToggle" class="language-btn">
+            <i class="fas fa-globe"></i>
+            <span id="currentLang">ES</span>
+        </button>
+    </div>
+
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="main-container">
+
+        <!-- Intro Section -->
+        <section id="intro">
+            <div class="content-wrapper intro-wrapper">
+                <div class="text-content">
+                    <h1>Juan Ariel Vargas <span style="color: var(--accent-secondary);">| Portfolio</span></h1>
+                    <h2 class="role-title" data-i18n="intro.role">Ingeniero de Software</h2>
+                    <p class="subtitle" data-i18n="intro.subtitle">Estudiante Avanzado de Ingeniería Informática</p>
+                    <p class="description" data-i18n="intro.description">
+                        +5 años de experiencia desarrollando videojuegos y soluciones backend.
+                        Especializado en <strong>Unreal Engine 5</strong> con <strong>C++</strong> y
+                        <strong>UEFN</strong> con <strong>Verse</strong>
+                        para experiencias inmersivas,
+                        respaldado por una sólida arquitectura backend en <strong>JS</strong>,
+                        <strong>Python</strong> y otras tecnologías.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://www.linkedin.com/in/juan-vargas-286075166" target="_blank"
+                            class="btn btn-primary">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+
+                    <!-- Tech Ticker -->
+                    <div class="tech-ticker-container">
+                        <div class="tech-ticker">
+                            <!-- Duplicated content for seamless loop -->
+                            <div class="ticker-track">
+                                <i class="devicon-unrealengine-original"></i>
+                                <i class="devicon-cplusplus-plain"></i>
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-nodejs-plain"></i>
+                                <i class="devicon-django-plain"></i>
+                                <i class="devicon-docker-plain"></i>
+                                <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                                <i class="devicon-mysql-plain"></i>
+                                <i class="devicon-mongodb-plain"></i>
+                                <i class="devicon-graphql-plain"></i>
+                                <i class="devicon-git-plain"></i>
+                                <!-- Repeat -->
+                                <i class="devicon-unrealengine-original"></i>
+                                <i class="devicon-cplusplus-plain"></i>
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-nodejs-plain"></i>
+                                <i class="devicon-django-plain"></i>
+                                <i class="devicon-docker-plain"></i>
+                                <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                                <i class="devicon-mysql-plain"></i>
+                                <i class="devicon-mongodb-plain"></i>
+                                <i class="devicon-graphql-plain"></i>
+                                <i class="devicon-git-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AVIATION PROJECTS -->
+
+        <!-- Project: Expressa Aircraft Configurator -->
+        <section id="expressa">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Expressa Aircraft Configurator</h2>
+                    <p class="description" data-i18n="projects.expressa.description">
+                        Plataforma de configuración de aeronaves adoptada por las principales empresas de aviación.
+                        Ofrece una solución web robusta para la personalización de exteriores e interiores de flotas.
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-badge"><i class="devicon-unrealengine-original"></i> UE5</div>
+                        <div class="tech-badge"><i class="devicon-cplusplus-plain"></i> C++</div>
+                        <div class="tech-badge"><i class="devicon-python-plain"></i> Python</div>
+                        <div class="tech-badge"><i class="devicon-nodejs-plain"></i> Node.js</div>
+                        <div class="tech-badge"><i class="devicon-mysql-plain"></i> MySQL</div>
+                        <div class="tech-badge"><i class="devicon-docker-plain"></i> Docker</div>
+                        <div class="tech-badge"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</div>
+                        <div class="tech-badge"><i class="devicon-graphql-plain"></i> GraphQL</div>
+                        <div class="tech-badge"><i class="devicon-mongodb-plain"></i> MongoDB</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://kipcreating.com/product-configurator/" target="_blank"
+                            class="btn btn-primary">Web</a>
+                        <a href="https://www.youtube.com/watch?v=gf8Qj3tFhBw" target="_blank"
+                            class="btn btn-secondary"><i class="fab fa-youtube"></i> Video</a>
+                    </div>
+                </div>
+                <div class="media-content">
+                    <div class="video-placeholder">
+                        <img src="images/expconf.jpg" alt="Expressa Aircraft Configurator">
+                        <a href="https://www.youtube.com/watch?v=gf8Qj3tFhBw" target="_blank" class="video-play-button">
+                            <i class="fab fa-youtube"></i> <span data-i18n="buttons.watchVideo">Ver Video</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project: BBJ Select Configurator -->
+        <section id="bbj-select">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>BBJ Select Configurator</h2>
+                    <p class="description" data-i18n="projects.bbj.description">
+                        Herramienta de configuración de alto nivel utilizada por Boeing para sus Business Jets. Permite
+                        a clientes VIP personalizar cada aspecto de sus cabinas en tiempo real con fidelidad visual
+                        fotorrealista.
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-badge"><i class="devicon-unrealengine-original"></i> UE5</div>
+                        <div class="tech-badge"><i class="devicon-cplusplus-plain"></i> C++</div>
+                        <div class="tech-badge"><i class="devicon-python-plain"></i> Python</div>
+                        <div class="tech-badge"><i class="devicon-nodejs-plain"></i> Node.js</div>
+                        <div class="tech-badge"><i class="devicon-mysql-plain"></i> MySQL</div>
+                        <div class="tech-badge"><i class="devicon-docker-plain"></i> Docker</div>
+                        <div class="tech-badge"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</div>
+                        <div class="tech-badge"><i class="devicon-graphql-plain"></i> GraphQL</div>
+                        <div class="tech-badge"><i class="devicon-mongodb-plain"></i> MongoDB</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://kipcreating.com/portfolio/bbj-select-vip-cabins/" target="_blank"
+                            class="btn btn-primary">Web</a>
+                    </div>
+                </div>
+                <div class="media-content">
+                    <img src="images/bbj.jpg" alt="BBJ Select Configurator">
+                </div>
+            </div>
+        </section>
+
+        <!-- FANLAB PROJECTS -->
+
+        <!-- Project: Simulador 3D -->
+        <section id="simulador">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Laboratory Simulator 3D</h2>
+                    <p class="description" data-i18n="projects.simulador.description">
+                        Plataforma educativa con laboratorios virtuales para la educación técnica. Permite a docentes
+                        dictar clases, crear actividades personalizadas y evaluar a los alumnos en un entorno 3D
+                        interactivo y seguro.
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-badge"><i class="devicon-unrealengine-original"></i> UE4</div>
+                        <div class="tech-badge"><i class="devicon-cplusplus-plain"></i> C++</div>
+                        <div class="tech-badge"><i class="devicon-git-plain"></i> Git</div>
+                        <div class="tech-badge"><i class="devicon-graphql-plain"></i> GraphQL</div>
+                        <div class="tech-badge"><i class="devicon-javascript-plain"></i> JS</div>
+                        <div class="tech-badge"><i class="devicon-nodejs-plain"></i> Node.js</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://gaming.faniot.com.ar/simuladorfl/" target="_blank"
+                            class="btn btn-primary">Web</a>
+                        <a href="https://youtu.be/WRHQsFR_ga0" target="_blank" class="btn btn-secondary"><i
+                                class="fab fa-youtube"></i> Video</a>
+                    </div>
+                </div>
+                <div class="media-content">
+                    <div class="video-placeholder">
+                        <img src="https://img.youtube.com/vi/WRHQsFR_ga0/maxresdefault.jpg" alt="Simulador 3D Video">
+                        <a href="https://www.youtube.com/watch?v=WRHQsFR_ga0" target="_blank" class="video-play-button">
+                            <i class="fab fa-youtube"></i> <span data-i18n="buttons.watchVideo">Ver Video</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project: Cataratas VR -->
+        <section id="cataratas">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Cataratas VR Game</h2>
+                    <p class="description" data-i18n="projects.cataratas.description">
+                        Experiencia inmersiva de Realidad Virtual que transporta a los usuarios al corazón de las
+                        Cataratas del Iguazú. Desarrollado con Unreal Engine 5 para lograr un realismo visual impactante
+                        en entornos naturales.
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-badge"><i class="devicon-unrealengine-original"></i> UE5</div>
+                        <div class="tech-badge"><i class="devicon-cplusplus-plain"></i> C++</div>
+                        <div class="tech-badge"><i class="devicon-git-plain"></i> Git</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://gaming.faniot.com.ar/cataratas-vr/" target="_blank"
+                            class="btn btn-primary">Web</a>
+                        <a href="https://youtu.be/JEjjBkhjleg" target="_blank" class="btn btn-secondary"><i
+                                class="fab fa-youtube"></i> Video</a>
+                    </div>
+                </div>
+                <div class="media-content">
+                    <div class="video-placeholder">
+                        <img src="https://img.youtube.com/vi/JEjjBkhjleg/maxresdefault.jpg" alt="Cataratas VR Video">
+                        <a href="https://www.youtube.com/watch?v=JEjjBkhjleg" target="_blank" class="video-play-button">
+                            <i class="fab fa-youtube"></i> <span data-i18n="buttons.watchVideo">Ver Video</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- UEFN PROJECTS -->
+
+        <!-- Project: City Falls Iguazu -->
+        <section id="city-falls">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>City Falls Iguazu Game</h2>
+                    <p class="description" data-i18n="projects.cityFalls.description">
+                        Una innovadora fusión entre videojuegos y turismo real. Desarrollado en UEFN para el hotel City
+                        Falls en Iguazú, esta experiencia permite a los usuarios jugar minijuegos para ganar puntos.
+                        Estos puntos se canjean por códigos de descuento reales a través de la app del hotel, conectando
+                        el metaverso con la hospitalidad física.
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-badge"><i class="devicon-unrealengine-original"></i> UEFN</div>
+                        <div class="tech-badge"><i class="fas fa-code"></i> Verse</div>
+                        <div class="tech-badge"><i class="devicon-python-plain"></i> Python</div>
+                        <div class="tech-badge"><i class="devicon-django-plain"></i> Django</div>
+                        <div class="tech-badge"><i class="devicon-mysql-plain"></i> MySQL</div>
+                        <div class="tech-badge"><i class="devicon-docker-plain"></i> Docker</div>
+                        <div class="tech-badge"><i class="devicon-git-plain"></i> Git</div>
+                    </div>
+                    <div class="project-links">
+                        <span class="btn btn-secondary" style="opacity: 0.7; cursor: default;">Próximamente</span>
+                    </div>
+                </div>
+                <div class="media-content">
+                    <img src="https://placehold.co/1920x1080/1a1a1a/6d28d9?text=Hotels+Experience" alt="Hotels Project">
+                </div>
+            </div>
+        </section>
+
+        <!-- Project: Survival (formerly MEGABONK) -->
+        <section id="survival">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>KPop Survival Game</h2>
+                    <p class="description" data-i18n="projects.survival.description">
+                        Desarrollado para Dark Wizard Studio. Un intenso juego de supervivencia en Fortnite Creative con
+                        temática K-Pop. Los jugadores deben sobrevivir a oleadas de enemigos en un entorno visualmente
+                        impactante.
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-badge"><i class="devicon-unrealengine-original"></i> UEFN</div>
+                        <div class="tech-badge"><i class="fas fa-code"></i> Verse</div>
+                        <div class="tech-badge"><i class="devicon-git-plain"></i> Git</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://fortnite.gg/island?code=0432-2176-4469" target="_blank"
+                            class="btn btn-primary">Ver en Fortnite.gg</a>
+                    </div>
+                </div>
+                <div class="media-content">
+                    <img src="images/kpop.jpg" alt="KPop Survival Game">
+                    <div class="stats-card" data-island-code="0432-2176-4469">
+                        <div class="stat-item">
+                            <span class="stat-value" id="unique-0432-2176-4469">--</span>
+                            <span class="stat-label" data-i18n="stats.uniquePlayers">Jugadores Únicos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="plays-0432-2176-4469">--</span>
+                            <span class="stat-label" data-i18n="stats.gamesPlayed">Partidas Jugadas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project: Dragon Bed Wars -->
+        <section id="dragon-bed-wars">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Dragon Bed Wars Game</h2>
+                    <p class="description" data-i18n="projects.dragonBedWars.description">
+                        Una reinvención del clásico modo Bed Wars para Dark Wizard Studio. Incorpora mecánicas de
+                        dragones y combate aéreo en Fortnite, ofreciendo una capa estratégica vertical única sobre la
+                        jugabilidad tradicional de defensa de bases.
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-badge"><i class="devicon-unrealengine-original"></i> UEFN</div>
+                        <div class="tech-badge"><i class="fas fa-code"></i> Verse</div>
+                        <div class="tech-badge"><i class="devicon-git-plain"></i> Git</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://fortnite.gg/island?code=6123-6237-1163" target="_blank" 2
+                            class="btn btn-primary">Ver en Fortnite.gg</a>
+                    </div>
+                </div>
+                <div class="media-content">
+                    <img src="images/dragonwars.jpeg" alt="Dragon Bed Wars Game">
+                    <div class="stats-card" data-island-code="6123-6237-1163">
+                        <div class="stat-item">
+                            <span class="stat-value" id="unique-6123-6237-1163">--</span>
+                            <span class="stat-label" data-i18n="stats.uniquePlayers">Jugadores Únicos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="plays-6123-6237-1163">--</span>
+                            <span class="stat-label" data-i18n="stats.gamesPlayed">Partidas Jugadas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOLAR 54 -->
+
+        <!-- Project: Solar 54 Game -->
+        <section id="solar54">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Solar 54 Game</h2>
+                    <p class="description" data-i18n="projects.solar54.description">
+                        Prototipo de juego de estrategia y supervivencia ambientado en la colonización de Marte.
+                        Desarrollado en Unreal Engine 5, explorando mecánicas complejas de gestión de recursos (Proyecto
+                        no lanzado comercialmente).
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-badge"><i class="devicon-unrealengine-original"></i> UE5</div>
+                        <div class="tech-badge"><i class="devicon-cplusplus-plain"></i> C++</div>
+                        <div class="tech-badge"><i class="devicon-git-plain"></i> Git</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://gaming.faniot.com.ar/solar-54-game/" target="_blank"
+                            class="btn btn-primary">Web</a>
+                        <a href="https://youtu.be/BKUUR-OiXgs" target="_blank" class="btn btn-secondary"><i
+                                class="fab fa-youtube"></i> Video</a>
+                    </div>
+                </div>
+                <div class="media-content">
+                    <div class="video-placeholder">
+                        <img src="images/solar54.png" alt="Solar 54 Game">
+                        <a href="https://www.youtube.com/watch?v=BKUUR-OiXgs" target="_blank" class="video-play-button">
+                            <i class="fab fa-youtube"></i> <span data-i18n="buttons.watchVideo">Ver Video</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
