@@ -84,7 +84,7 @@ const translations = {
     }
 };
 
-let currentLanguage = 'es';
+let currentLanguage = 'en';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize Language Selector
@@ -97,9 +97,11 @@ document.addEventListener('DOMContentLoaded', () => {
     initScrollAnimations();
 
     // Load saved language preference
-    const savedLang = localStorage.getItem('language') || 'es';
-    if (savedLang !== 'es') {
+    const savedLang = localStorage.getItem('language') || 'en';
+    if (savedLang !== 'en') {
         switchLanguage(savedLang);
+    } else {
+        switchLanguage('en');
     }
 });
 
