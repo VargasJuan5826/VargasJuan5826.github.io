@@ -2,9 +2,9 @@
 const translations = {
     es: {
         intro: {
-            role: 'Ingeniero de Software',
+            role: 'Sr. Ingeniero de Software',
             subtitle: 'Estudiante Avanzado de Ingeniería Informática',
-            description: '+5 años de experiencia desarrollando videojuegos y soluciones backend. Especializado en <strong>Unreal Engine 5</strong> con <strong>C++</strong> y <strong>UEFN</strong> con <strong>Verse</strong> para experiencias inmersivas, respaldado por una sólida arquitectura backend en <strong>JS</strong>, <strong>Python</strong> y otras tecnologías. Actualmente aprendiendo <strong>automatización con n8n</strong> e <strong>integración de LLMs</strong>.'
+            description: '+5 años de experiencia desarrollando videojuegos y soluciones backend. Especializado en <strong>Unreal Engine 5</strong> con <strong>C++</strong> y <strong>UEFN</strong> con <strong>Verse</strong> para experiencias inmersivas, respaldado por una sólida arquitectura backend en <strong>JS</strong>, <strong>Python</strong> y otras tecnologías. Actualmente desarrollo productos que integran <strong>inteligencia artificial</strong> usando <strong>LangChain</strong> y <strong>n8n</strong>.'
         },
         buttons: {
             watchVideo: 'Ver Video',
@@ -43,9 +43,9 @@ const translations = {
     },
     en: {
         intro: {
-            role: 'Software Engineer',
+            role: 'Senior Software Engineer',
             subtitle: 'Advanced Computer Engineering Student',
-            description: '+5 years of experience developing video games and backend solutions. Specialized in <strong>Unreal Engine 5</strong> with <strong>C++</strong> and <strong>UEFN</strong> with <strong>Verse</strong> for immersive experiences, backed by a solid backend architecture in <strong>JS</strong>, <strong>Python</strong> and other technologies. Currently learning <strong>automation with n8n</strong> and <strong>LLM integration</strong>.'
+            description: '+5 years of experience developing video games and backend solutions. Specialized in <strong>Unreal Engine 5</strong> with <strong>C++</strong> and <strong>UEFN</strong> with <strong>Verse</strong> for immersive experiences, backed by a solid backend architecture in <strong>JS</strong>, <strong>Python</strong> and other technologies. Currently developing products that integrate <strong>artificial intelligence</strong> using <strong>LangChain</strong> and <strong>n8n</strong>.'
         },
         buttons: {
             watchVideo: 'Watch Video',
