@@ -4,22 +4,30 @@ const translations = {
         intro: {
             role: 'Sr. Ingeniero de Software',
             subtitle: 'Estudiante Avanzado de Ingeniería Informática',
-            description: '+5 años de experiencia desarrollando videojuegos y soluciones backend. Especializado en <strong>Unreal Engine 5</strong> con <strong>C++</strong> y <strong>UEFN</strong> con <strong>Verse</strong> para experiencias inmersivas, respaldado por una sólida arquitectura backend en <strong>JS</strong>, <strong>Python</strong> y otras tecnologías. Actualmente desarrollo productos que integran <strong>inteligencia artificial</strong> usando <strong>LangChain</strong> y <strong>n8n</strong>.'
+            description: '+5 años desarrollando videojuegos, experiencias inmersivas, plataformas backend y productos finales con <strong>IA conversacional</strong>. Especializado en <strong>Unreal Engine 5</strong>, <strong>C++</strong>, <strong>UEFN</strong> con <strong>Verse</strong>, <strong>Python</strong> y <strong>JS</strong>. Construí asistentes virtuales 3D integrando <strong>LLM agents</strong>, <strong>LangChain</strong>, <strong>LangGraph</strong>, <strong>RAG</strong>, <strong>Qdrant</strong>, <strong>Whisper STT</strong>, <strong>Kokoro TTS</strong>, <strong>FastAPI</strong>, <strong>WebSockets</strong>, <strong>vLLM / LM Studio</strong> y <strong>NVIDIA ACE</strong>.'
         },
         buttons: {
             watchVideo: 'Ver Video',
-            comingSoon: 'Próximamente'
+            comingSoon: 'Próximamente',
+            article: 'Nota'
         },
         stats: {
             uniquePlayers: 'Jugadores Únicos',
             gamesPlayed: 'Partidas Jugadas'
         },
         projects: {
+            avia: {
+                description: 'Asistente virtual 3D con IA para cabina, presentado en AIX 2026 por Rosen Aviation en colaboración con KiPcreating. Fui contratado por KiPcreating para desarrollar la experiencia conversacional end-to-end, integrando backend de voz, agentes LLM, RAG, STT/TTS y comunicación en tiempo real con el frontend en Unreal Engine 5 + NVIDIA ACE.',
+                context: 'Relación comercial: Rosen Aviation colaboró con KiPcreating; mi participación fue como desarrollador contratado por KiPcreating.'
+            },
             expressa: {
                 description: 'Participé en el desarrollo de esta plataforma de configuración de aeronaves adoptada por las principales empresas de aviación. Ofrece una solución web robusta para la personalización de exteriores e interiores de flotas.'
             },
             bbj: {
                 description: 'Colaboré en el desarrollo de esta herramienta de configuración de alto nivel utilizada por Boeing para sus Business Jets. Permite a clientes VIP personalizar cada aspecto de sus cabinas en tiempo real con fidelidad visual fotorrealista.'
+            },
+            faniotApp: {
+                description: 'Aplicación Smart City orientada al monitoreo y gestión de luminarias urbanas. Integra frontend Flutter, backend Django y servicios IoT para visualizar estado, métricas históricas, fallas, mapa, dimmer y comandos de encendido/apagado en tiempo real.'
             },
             simulador: {
                 description: 'Participé en el desarrollo de esta plataforma educativa con laboratorios virtuales para la educación técnica. Permite a docentes dictar clases, crear actividades personalizadas y evaluar a los alumnos en un entorno 3D interactivo y seguro.'
@@ -45,22 +53,30 @@ const translations = {
         intro: {
             role: 'Senior Software Engineer',
             subtitle: 'Advanced Computer Engineering Student',
-            description: '+5 years of experience developing video games and backend solutions. Specialized in <strong>Unreal Engine 5</strong> with <strong>C++</strong> and <strong>UEFN</strong> with <strong>Verse</strong> for immersive experiences, backed by a solid backend architecture in <strong>JS</strong>, <strong>Python</strong> and other technologies. Currently developing products that integrate <strong>artificial intelligence</strong> using <strong>LangChain</strong> and <strong>n8n</strong>.'
+            description: '+5 years building video games, immersive experiences, backend platforms, and shipped <strong>conversational AI</strong> products. Specialized in <strong>Unreal Engine 5</strong>, <strong>C++</strong>, <strong>UEFN</strong> with <strong>Verse</strong>, <strong>Python</strong>, and <strong>JS</strong>. I built 3D virtual assistants integrating <strong>LLM agents</strong>, <strong>LangChain</strong>, <strong>LangGraph</strong>, <strong>RAG</strong>, <strong>Qdrant</strong>, <strong>Whisper STT</strong>, <strong>Kokoro TTS</strong>, <strong>FastAPI</strong>, <strong>WebSockets</strong>, <strong>vLLM / LM Studio</strong>, and <strong>NVIDIA ACE</strong>.'
         },
         buttons: {
             watchVideo: 'Watch Video',
-            comingSoon: 'Coming Soon'
+            comingSoon: 'Coming Soon',
+            article: 'Article'
         },
         stats: {
             uniquePlayers: 'Unique Players',
             gamesPlayed: 'Games Played'
         },
         projects: {
+            avia: {
+                description: 'AI-powered 3D virtual cabin assistant presented at AIX 2026 by Rosen Aviation in collaboration with KiPcreating. I was contracted by KiPcreating to develop the end-to-end conversational experience, integrating voice backend, LLM agents, RAG, STT/TTS, and real-time communication with the Unreal Engine 5 + NVIDIA ACE frontend.',
+                context: 'Commercial relationship: Rosen Aviation collaborated with KiPcreating; my role was as a developer contracted by KiPcreating.'
+            },
             expressa: {
                 description: 'I participated in the development of this aircraft configuration platform adopted by major aviation companies. Offers a robust web solution for customizing aircraft exteriors and interiors for fleets.'
             },
             bbj: {
                 description: 'I collaborated in the development of this high-level configuration tool used by Boeing for their Business Jets. Allows VIP clients to customize every aspect of their cabins in real-time with photorealistic visual fidelity.'
+            },
+            faniotApp: {
+                description: 'Smart City application for monitoring and managing urban lighting. It integrates a Flutter frontend, Django backend, and IoT services to visualize status, historical metrics, failures, map location, dimmer levels, and real-time on/off commands.'
             },
             simulador: {
                 description: 'I participated in the development of this educational platform with virtual laboratories for technical education. Allows teachers to conduct classes, create personalized activities, and evaluate students in an interactive and safe 3D environment.'

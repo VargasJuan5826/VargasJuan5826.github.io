@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+    <title id="title">FANIOTAPP smart lighting dashboard preview</title>
+    <desc id="desc">A smart city dashboard preview with a lighting map, device table, status cards, and dimmer controls.</desc>
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#07111f"/>
+            <stop offset="55%" stop-color="#10243b"/>
+            <stop offset="100%" stop-color="#05080f"/>
+        </linearGradient>
+        <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#12c2e9"/>
+            <stop offset="55%" stop-color="#6f5cff"/>
+            <stop offset="100%" stop-color="#d30971"/>
+        </linearGradient>
+        <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#132238"/>
+            <stop offset="100%" stop-color="#0b1525"/>
+        </linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/>
+        </filter>
+        <style>
+            .title { font: 800 54px "Segoe UI", Arial, sans-serif; fill: #f8fbff; }
+            .subtitle { font: 500 22px "Segoe UI", Arial, sans-serif; fill: #a9bbd3; }
+            .label { font: 700 18px "Segoe UI", Arial, sans-serif; fill: #dce7f5; }
+            .muted { font: 600 15px "Segoe UI", Arial, sans-serif; fill: #7f91ad; }
+            .metric { font: 800 34px "Segoe UI", Arial, sans-serif; fill: #ffffff; }
+            .small { font: 700 13px "Segoe UI", Arial, sans-serif; fill: #c7d4e8; }
+            .table { font: 700 15px "Segoe UI", Arial, sans-serif; fill: #d8e6f7; }
+            .chip { font: 800 13px "Segoe UI", Arial, sans-serif; fill: #eaf7ff; }
+        </style>
+    </defs>
+    <rect width="1600" height="900" fill="url(#bg)"/>
+    <circle cx="1360" cy="120" r="230" fill="#12c2e920"/>
+    <circle cx="160" cy="790" r="260" fill="#d3097118"/>
+    <path d="M0 760 C220 690 330 840 520 770 C760 682 920 730 1090 654 C1280 568 1410 602 1600 524 L1600 900 L0 900 Z" fill="#0ea5e914" opacity="0.72"/>
+
+    <g transform="translate(72 64)">
+        <text class="title" x="0" y="0" dominant-baseline="hanging">FANIOTAPP</text>
+        <text class="subtitle" x="0" y="68">Smart lighting monitoring and city operations</text>
+    </g>
+
+    <g transform="translate(72 178)" filter="url(#shadow)">
+        <rect width="500" height="566" rx="26" fill="url(#card)" stroke="#294564"/>
+        <rect x="28" y="28" width="444" height="310" rx="20" fill="#0d1a2c" stroke="#2b4f71"/>
+        <path d="M72 94 C150 64 206 102 274 78 C344 54 384 90 436 62" fill="none" stroke="#334d67" stroke-width="18" stroke-linecap="round"/>
+        <path d="M64 218 C150 176 212 220 286 188 C354 160 392 206 444 180" fill="none" stroke="#334d67" stroke-width="18" stroke-linecap="round"/>
+        <path d="M116 298 C162 230 250 252 302 206 C354 160 396 132 440 130" fill="none" stroke="#425f79" stroke-width="8" stroke-linecap="round"/>
+        <circle cx="144" cy="132" r="13" fill="#22c55e"/>
+        <circle cx="250" cy="206" r="13" fill="#22c55e"/>
+        <circle cx="354" cy="160" r="13" fill="#f59e0b"/>
+        <circle cx="408" cy="260" r="13" fill="#d30971"/>
+        <circle cx="184" cy="280" r="13" fill="#12c2e9"/>
+        <g transform="translate(290 196)">
+            <rect width="154" height="84" rx="16" fill="#ffffff" opacity="0.96"/>
+            <text class="small" x="18" y="26" fill="#10243b">LUM-041</text>
+            <text class="muted" x="18" y="52" fill="#46607f">Dimmer 70%</text>
+        </g>
+
+        <text class="label" x="30" y="386">Lighting status</text>
+        <g transform="translate(30 414)">
+            <rect width="136" height="80" rx="18" fill="#0d1a2c" stroke="#274665"/>
+            <text class="metric" x="24" y="44">128</text>
+            <text class="muted" x="24" y="66">Online</text>
+        </g>
+        <g transform="translate(184 414)">
+            <rect width="136" height="80" rx="18" fill="#0d1a2c" stroke="#274665"/>
+            <text class="metric" x="24" y="44">9</text>
+            <text class="muted" x="24" y="66">Alerts</text>
+        </g>
+        <g transform="translate(338 414)">
+            <rect width="136" height="80" rx="18" fill="#0d1a2c" stroke="#274665"/>
+            <text class="metric" x="24" y="44">62%</text>
+            <text class="muted" x="24" y="66">Avg dimmer</text>
+        </g>
+    </g>
+
+    <g transform="translate(612 178)" filter="url(#shadow)">
+        <rect width="916" height="566" rx="26" fill="#f7fbff" stroke="#d9e7f4"/>
+        <rect x="28" y="28" width="860" height="78" rx="18" fill="#10243b"/>
+        <text class="label" x="58" y="76">Urban lighting dashboard</text>
+        <rect x="654" y="48" width="92" height="28" rx="14" fill="#1f3a56"/>
+        <text class="chip" x="680" y="67">Live</text>
+        <rect x="758" y="48" width="104" height="28" rx="14" fill="url(#accent)"/>
+        <text class="chip" x="786" y="67">MQTT</text>
+
+        <g transform="translate(28 132)">
+            <rect width="860" height="64" rx="14" fill="#eaf2fb"/>
+            <text class="muted" x="24" y="40" fill="#4e6684">Filters</text>
+            <rect x="112" y="18" width="132" height="28" rx="14" fill="#dff4ff"/>
+            <text class="small" x="146" y="37" fill="#214865">Lighting</text>
+            <rect x="258" y="18" width="104" height="28" rx="14" fill="#e9ddff"/>
+            <text class="small" x="290" y="37" fill="#41267b">Online</text>
+            <rect x="376" y="18" width="168" height="28" rx="14" fill="#ffe3ed"/>
+            <text class="small" x="402" y="37" fill="#822344">Lamp failure</text>
+        </g>
+
+        <g transform="translate(28 224)">
+            <rect width="860" height="276" rx="16" fill="#ffffff" stroke="#d9e7f4"/>
+            <rect x="0" y="0" width="860" height="48" rx="16" fill="#edf5fc"/>
+            <text class="muted" x="26" y="30" fill="#49627f">Device</text>
+            <text class="muted" x="214" y="30" fill="#49627f">Area</text>
+            <text class="muted" x="384" y="30" fill="#49627f">Status</text>
+            <text class="muted" x="550" y="30" fill="#49627f">Power</text>
+            <text class="muted" x="704" y="30" fill="#49627f">Dimmer</text>
+
+            <g transform="translate(0 58)">
+                <rect width="860" height="54" rx="12" fill="#ffffff"/>
+                <text class="table" x="26" y="34" fill="#1f3048">LUM-030</text>
+                <text class="table" x="214" y="34" fill="#1f3048">Downtown</text>
+                <rect x="384" y="16" width="84" height="24" rx="12" fill="#dcfce7"/>
+                <text class="small" x="405" y="33" fill="#166534">Online</text>
+                <text class="table" x="550" y="34" fill="#1f3048">142 W</text>
+                <rect x="704" y="22" width="104" height="10" rx="5" fill="#d8e6f7"/>
+                <rect x="704" y="22" width="74" height="10" rx="5" fill="#12c2e9"/>
+            </g>
+            <g transform="translate(0 120)">
+                <rect width="860" height="54" rx="12" fill="#f7fbff"/>
+                <text class="table" x="26" y="34" fill="#1f3048">LUM-041</text>
+                <text class="table" x="214" y="34" fill="#1f3048">Costanera</text>
+                <rect x="384" y="16" width="84" height="24" rx="12" fill="#dcfce7"/>
+                <text class="small" x="405" y="33" fill="#166534">Online</text>
+                <text class="table" x="550" y="34" fill="#1f3048">188 W</text>
+                <rect x="704" y="22" width="104" height="10" rx="5" fill="#d8e6f7"/>
+                <rect x="704" y="22" width="50" height="10" rx="5" fill="#6f5cff"/>
+            </g>
+            <g transform="translate(0 182)">
+                <rect width="860" height="54" rx="12" fill="#ffffff"/>
+                <text class="table" x="26" y="34" fill="#1f3048">LUM-077</text>
+                <text class="table" x="214" y="34" fill="#1f3048">Avenue 60</text>
+                <rect x="384" y="16" width="92" height="24" rx="12" fill="#fee2e2"/>
+                <text class="small" x="404" y="33" fill="#991b1b">Offline</text>
+                <text class="table" x="550" y="34" fill="#1f3048">0 W</text>
+                <rect x="704" y="22" width="104" height="10" rx="5" fill="#d8e6f7"/>
+                <rect x="704" y="22" width="8" height="10" rx="5" fill="#d30971"/>
+            </g>
+        </g>
+    </g>
+
+    <g transform="translate(1138 770)">
+        <rect width="390" height="58" rx="29" fill="#ffffff" opacity="0.12"/>
+        <circle cx="52" cy="29" r="18" fill="url(#accent)"/>
+        <polygon points="47,20 47,38 63,29" fill="#ffffff"/>
+        <text class="label" x="88" y="36">Watch product walkthrough</text>
+    </g>
+</svg>
